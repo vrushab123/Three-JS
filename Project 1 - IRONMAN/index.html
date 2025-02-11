@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="main w-full font-[Poppins]">
+    <nav class=" fixed top-0 left-0 px-10 py-1 flex justify-between items-center w-full bg-black">
+      <img class="w-[150px]  mix-blend-screen filter saturate-200 contrast-150 brightness-75 hue-rotate-[170deg]"
+        src="https://picfiles.alphacoders.com/625/62536.png" alt="">
+      <div class="flex gap-5 items-center">
+        <a href="#"
+          class="tracking-tight text-white hover:text-[#4f81ff] hover:text-shadow-[0_0_10px_#1a09d9] transition-all">Home</a>
+        <a href="#"
+          class="tracking-tight text-white hover:text-[#4f81ff] hover:text-shadow-[0_0_10px_#1a09d9] transition-all">Games</a>
+        <a href="#"
+          class="tracking-tight text-white hover:text-[#4f81ff] hover:text-shadow-[0_0_10px_#1a09d9] transition-all">News</a>
+        <a href="#"
+          class="tracking-tight text-white hover:text-[#4f81ff] hover:text-shadow-[0_0_10px_#1a09d9] transition-all">Community</a>
+        <a href="#"
+          class="tracking-tight text-white hover:text-[#4f81ff] hover:text-shadow-[0_0_10px_#1a09d9] transition-all">Support</a>
+        <a href="#"
+          class="tracking-tight text-white hover:text-[#4f81ff] hover:text-shadow-[0_0_10px_#1a09d9] transition-all">Shop</a>
+      </div>
+    </nav>
+    <div class="w-full top-[30px] h-[150vh] overflow-hidden relative">
+      <canvas id="canvas" class="absolute top-0 left-0 w-full h-full z-0"></canvas>
+      <img
+        class="absolute w-[65%] top-[65%] left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen filter saturate-[180%] contrast-[175%] brightness-90 hue-rotate-[200deg] opacity-60 z-10 drop-shadow-[0_0_15px_#22ff42]"
+        src="https://picfiles.alphacoders.com/625/62536.png" alt="">
+      <div
+        class="w-[30rem] h-[50rem] absolute top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-3] rounded-full bg-blue-800 blur-[100px]">
+      </div>
+    </div>
+    <!-- <div class="w-full relative h-screen bg-[#000]">
+
+    </div> -->
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
